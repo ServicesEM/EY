@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1000px) {
+    .FlightsBooking {height: 600px}
+    .FlightsBooking:has(.opacity-100) {height: 720px}
+    .FlightsBooking .bg-cover.bg-no-repeat {height: 465px;padding-bottom: 0 !important}
+    .FlightsBooking .bg-cover.bg-no-repeat > div:nth-child(1) {position: absolute}
+    .FlightsBooking .bg-cover.bg-no-repeat > div:nth-child(2) {position: relative}
+    .FlightsBooking .FareTitleHeader {bottom: 40px;right: 0;left: 0}
+    .FlightsBooking .BookingMask {left: 0;right: 0;bottom: -90%}
+    .FlightsBooking.w-full.max-w-full.lg\:max-w-6xl.self-center {height: 100%!important}
+    .FlightsBooking.self-center .px-3.py-4 .bg-cover.bg-no-repeat > div {position: initial!important}
+    .FlightsBooking.self-center .px-3.py-4 .bg-cover.bg-no-repeat {height: 100%!important}
+    /*No Redesign Styles*/
+    .FlightsBooking.w-full.max-w-full.lg\:max-w-6xl.self-center {
+        height: 100%!important;
+        padding: 0;
+    }
+    .FlightsBooking.self-center .px-3.py-4 .bg-cover.bg-no-repeat {height: 100% !important}
+    .FlightsBooking.self-center .px-3.py-4 .bg-cover.bg-no-repeat::before {z-index: -1!important}
+    .FlightsBooking.self-center .px-3.py-4 .bg-cover.bg-no-repeat > div {position: initial!important;}
+    /*---------------------*/
+}
