@@ -91,7 +91,8 @@ button[aria-label="burger-menu"] > i {
     color: #005F96 !important;
     font-weight: 350 !important;
 }
-.FlightsBooking button[data-att="search"] {
+.FlightsBooking button[data-att="search"],
+div[data-att="modal-container"] button[data-att="search"] {
     background: #B08747 !important;
     border-radius: 999px !important;
     font-size: 18px !important;
@@ -99,15 +100,20 @@ button[aria-label="burger-menu"] > i {
     color: white !important;
     font-weight: 700 !important;
 }
-.FlightsBooking button[data-att="search"]:hover {
+.FlightsBooking button[data-att="search"]:hover,
+div[data-att="modal-container"] button[data-att="search"]:hover {
     background: #99753D!important;
 }
-.FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full {
+.FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
+div[data-att="modal-container"] div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full{
     border-radius: 0 0 12px 12px;
 }
 .FlightsBooking div[data-att="f2_journey-type"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer,
 .FlightsBooking div[data-att="f2_traveler-info"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer, 
-.FlightsBooking div[data-att="f2_promo-code"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer {
+.FlightsBooking div[data-att="f2_promo-code"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer,
+div[data-att="modal-container"] div[data-att="f2_journey-type"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer,
+div[data-att="modal-container"] div[data-att="f2_traveler-info"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer, 
+div[data-att="modal-container"] div[data-att="f2_promo-code"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer{
     border: none;
     color: #111827 !important;
     font-size: 14px !important;
@@ -116,7 +122,11 @@ button[aria-label="burger-menu"] > i {
 .FlightsBooking div[data-att="f1_origin"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
 .FlightsBooking div[data-att="f1_destination"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
 .FlightsBooking div[data-att="start-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
-.FlightsBooking div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full {
+.FlightsBooking div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+div[data-att="modal-container"] div[data-att="f1_origin"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+div[data-att="modal-container"] div[data-att="f1_destination"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+div[data-att="modal-container"] div[data-att="start-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+div[data-att="modal-container"] div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full{
     border: 1px solid #E5E7EB!important;
     background: #F9FAFB!important;
     border-radius: 12px!important;
@@ -124,22 +134,31 @@ button[aria-label="burger-menu"] > i {
 .FlightsBooking div[data-att="f1_origin"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label#flights-booking-id-1-label,
 .FlightsBooking div[data-att="f1_destination"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label#flights-booking-id-2-label,
 .FlightsBooking div[data-att="start-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label.text-left.rtl\:text-right.block,
-.FlightsBooking div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label.text-left.rtl\:text-right.block {
+.FlightsBooking div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label.text-left.rtl\:text-right.block,
+div[data-att="modal-container"] div[data-att="f1_origin"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label#flights-booking-id-1-label,
+div[data-att="modal-container"] div[data-att="f1_destination"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label#flights-booking-id-2-label,
+div[data-att="modal-container"] div[data-att="start-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label.text-left.rtl\:text-right.block,
+div[data-att="modal-container"] div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full label.text-left.rtl\:text-right.block{
     color: #374151!important;
     font-weight: 500!important; 
 }
 .FlightsBooking div[data-att="f1_origin"] input#flights-booking-id-1-input,
 .FlightsBooking div[data-att="f1_destination"] input#flights-booking-id-2-input,
 .FlightsBooking div[data-att="start-date-toggler"] button#date-input-11-trigger,
-.FlightsBooking div[data-att="end-date-toggler"] button#date-input-12-trigger {
+.FlightsBooking div[data-att="end-date-toggler"] button#date-input-12-trigger,
+div[data-att="modal-container"] div[data-att="f1_origin"] input#flights-booking-id-1-input,
+div[data-att="modal-container"] div[data-att="f1_destination"] input#flights-booking-id-2-input,
+div[data-att="modal-container"] div[data-att="start-date-toggler"] button#date-input-11-trigger,
+div[data-att="modal-container"] div[data-att="end-date-toggler"] button#date-input-12-trigger{
     font-weight: 500!important;
     color: #111827!important;
     font-size: 16px!important;
 }
 @media (min-width: 750px) {
-    .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full {
-    margin-top: -7px;
-}
+    .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
+    div[data-att="modal-container"] div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full{
+        margin-top: -7px;
+    }
 }
 /*Breadcrumbs Redesign*/
 ol.breadcrumbs.block li.inline a {
@@ -277,7 +296,7 @@ div[data-em-sfm-type="COLUMNS"] div[data-test="card-container"] > .flex.flex-wra
 }
 @media (max-width: 768px) {
     div[data-em-sfm-type="COLUMNS"] div[data-test="card-container"] > .flex.flex-wrap.w-full:hover {
-        background: #2E4755!important;
+        background: #fff !important;
         outline: #FEF9EE;
     }
 }
@@ -335,6 +354,14 @@ span.weather__temperature {
 p.weather__date {
     font-size: 12px!important;
     color: #374151!important;
+}
+@media (max-width: 768px) {
+    .Weather .flex.flex-wrap > .flex.flex-wrap.w-full.flex-col.md\:flex-row > .flex.flex-wrap.flex.w-full.items-center.mb-3 > .flex.flex-wrap.items-center.justify-center.px-4 {
+        background: #fff!important;
+    }
+    .Weather .flex.flex-wrap > .flex.flex-wrap.w-full.flex-col.md\:flex-row > .flex.flex-wrap.flex.w-full.items-center.mb-3 > .flex.flex-wrap.items-center.justify-center.px-4 > i.font-semi.leading-none.weather__icon {
+        color: #B08747!important;
+    }
 }
 /*Interlinking Redesign*/
 .InterlinkRoutes ul.leading-loose.pb-4 > li.w-full.inline-block.align-top.pt-1 > a.block.pr-4 {
