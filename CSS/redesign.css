@@ -341,6 +341,7 @@ p.weather__date {
     font-weight: 400!important;
     color: #111827!important;
     margin-bottom: 16px !important;
+    width: fit-content;
 }
 .InterlinkRoutes ul.leading-loose.pb-4 > li.w-full.inline-block.align-top.pt-1 > a.block.pr-4:hover {
     color: #99753D!important;
