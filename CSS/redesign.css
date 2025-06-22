@@ -365,7 +365,6 @@ p.weather__date {
 }
 /*Interlinking Redesign*/
 .InterlinkRoutes ul.leading-loose.pb-4 > li.w-full.inline-block.align-top.pt-1 > a.block.pr-4 {
-    font-weight: 400!important;
     color: #111827!important;
     margin-bottom: 16px !important;
     width: fit-content;
