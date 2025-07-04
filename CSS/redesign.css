@@ -12,7 +12,8 @@ section.destinationcontent img.img-responsive {
 div[data-em-sfm-type="TABLE"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="TABLE"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="TABLE"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
-div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label {
+div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="TABLE"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
     font-size: 16px;
@@ -20,7 +21,8 @@ div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.fl
 div[data-em-sfm-type="TABLE"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="TABLE"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="TABLE"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
-div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal  {
+div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="TABLE"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
     border-right: 0!important;
@@ -180,7 +182,8 @@ div[data-em-sfm-type="CAROUSEL"] .carousel.carousel-slider li.slide .flex.flex-w
 div[data-em-sfm-type="CAROUSEL"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
-div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label {
+div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="CAROUSEL"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
     font-size: 16px;
@@ -188,7 +191,8 @@ div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex
 div[data-em-sfm-type="CAROUSEL"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
-div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal  {
+div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="CAROUSEL"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
     border-right: 0!important;
@@ -247,14 +251,18 @@ div[data-em-sfm-type="CAROUSEL"] {margin-bottom: -3rem}
 /*Two Column Redesign*/
 div[data-em-sfm-type="COLUMNS"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="COLUMNS"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
-div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label {
+div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="COLUMNS"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="COLUMNS"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
     font-size: 16px;
 }
 div[data-em-sfm-type="COLUMNS"] div[data-test="budget-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="COLUMNS"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
-div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal  {
+div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="COLUMNS"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="COLUMNS"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
     border-right: 0!important;
