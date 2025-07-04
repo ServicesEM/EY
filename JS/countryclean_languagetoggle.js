@@ -1,5 +1,4 @@
 (function () {
-    // Ejecutar solo cuando el DOM esté completamente cargado
     function iniciarScript() {
         function limpiarTextoDuplicado(elemento) {
             if (!elemento || !elemento.textContent) return;
@@ -14,10 +13,14 @@
         }
 
         function buscarYLimpiar() {
-            const objetivo = document.querySelector('.header-language-toggle span.flag-icon + span');
-            if (objetivo) {
-                limpiarTextoDuplicado(objetivo);
-            }
+            const selectores = [
+                '.header-language-toggle span.flag-icon + span',
+                '.header__burguer-menu-sidebar span.flag-icon + span'
+            ];
+            selectores.forEach(selector => {
+                const elementos = document.querySelectorAll(selector);
+                elementos.forEach(el => limpiarTextoDuplicado(el));
+            });
         }
 
         let intentos = 0;
@@ -25,7 +28,9 @@
         const intervalo = setInterval(() => {
             intentos++;
             buscarYLimpiar();
-            if (document.querySelector('.header-language-toggle span.flag-icon + span') || intentos >= maxIntentos) {
+            if (document.querySelector('.header-language-toggle span.flag-icon + span') ||
+                document.querySelector('.header__burguer-menu-sidebar span.flag-icon + span') ||
+                intentos >= maxIntentos) {
                 clearInterval(intervalo);
             }
         }, 500);
@@ -43,7 +48,6 @@
         console.log("🟢 Script observador de duplicados cargado.");
     }
 
-    // Esperar hasta que el DOM esté listo
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', iniciarScript);
     } else {
