@@ -13,6 +13,7 @@ div[data-em-sfm-type="TABLE"] div[data-test="budget-container"] > .flex.flex-wra
 div[data-em-sfm-type="TABLE"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="TABLE"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="TABLE"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="TABLE"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
@@ -22,6 +23,7 @@ div[data-em-sfm-type="TABLE"] div[data-test="budget-container"] > .flex.flex-wra
 div[data-em-sfm-type="TABLE"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="TABLE"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="TABLE"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="TABLE"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="TABLE"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
@@ -183,6 +185,7 @@ div[data-em-sfm-type="CAROUSEL"] div[data-test="budget-container"] > .flex.flex-
 div[data-em-sfm-type="CAROUSEL"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="CAROUSEL"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="CAROUSEL"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
@@ -192,6 +195,7 @@ div[data-em-sfm-type="CAROUSEL"] div[data-test="budget-container"] > .flex.flex-
 div[data-em-sfm-type="CAROUSEL"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="CAROUSEL"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="CAROUSEL"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="CAROUSEL"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
@@ -253,6 +257,7 @@ div[data-em-sfm-type="COLUMNS"] div[data-test="budget-container"] > .flex.flex-w
 div[data-em-sfm-type="COLUMNS"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="COLUMNS"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > label,
+div[data-em-sfm-type="COLUMNS"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > label,
 div[data-em-sfm-type="COLUMNS"] div[type="button"] > label.tracking-normal {
     color: #111827;
     font-weight: 400;
@@ -262,6 +267,7 @@ div[data-em-sfm-type="COLUMNS"] div[data-test="budget-container"] > .flex.flex-w
 div[data-em-sfm-type="COLUMNS"] div[data-test="destination-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="COLUMNS"] div[data-test="origin-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="COLUMNS"] div[data-test="travel-class-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
+div[data-em-sfm-type="COLUMNS"] div[data-test="journey-type-container"] > .flex.flex-wrap.relative.w-full > .flex.flex-wrap.w-full.border-solid.tracking-normal,
 div[data-em-sfm-type="COLUMNS"] div[type="button"] > button.w-full.flex.items-center.px-2.tracking-normal {
     border-top: 0!important;
     border-left: 0!important;
