@@ -110,7 +110,8 @@ div[data-att="modal-container"] button[data-att="search"]:hover {
 }
 .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
 div[data-att="modal-container"] div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
-.FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"] > .flex.flex-wrap.w-full.flex-col.bg-cover > .flex.flex-wrap > .flex.flex-wrap.w-full {
+.FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"] > .flex.flex-wrap.w-full.flex-col.bg-cover > .flex.flex-wrap > .flex.flex-wrap.w-full,
+.FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"] > .flex.flex-wrap.w-full.flex-col.bg-cover > .flex.flex-wrap {
     border-radius: 0 0 12px 12px;
 }
 .FlightsBooking div[data-att="f2_journey-type"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full.cursor-pointer,
