@@ -404,8 +404,10 @@ p.weather__date {
     color: white!important;
 }
 /*Footer Redesign*/
-footer#footer {
-    background-color: #263A46;
+footer#footer, 
+footer#footer .footer, 
+footer#footer .footer .flex.flex-wrap.justify-center {
+    background-color: #263A46!important;
 }
 footer#footer * {
     color: white;
