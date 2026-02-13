@@ -82,7 +82,6 @@ button[aria-label="burger-menu"] > i {
 /*Booking Mask Redesign*/
 .FlightsBooking .FareTitleHeader > .w-full.max-w-full.lg\:max-w-6xl.flex-grow div[data-em-cmp="dpa_headline"] .flex.flex-wrap.w-full {
     background: white;
-    padding-bottom: 0 !important;
 }
 .FlightsBooking .FareTitleHeader h1 {
     font-size: 39px !important;
