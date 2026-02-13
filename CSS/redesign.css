@@ -159,14 +159,14 @@ div[data-att="modal-container"] div[data-att="end-date-toggler"] button#date-inp
     color: #111827!important;
     font-size: 16px!important;
 }
-@media (min-width: 750px) {
+/*@media (min-width: 750px) {
     .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
     div[data-att="modal-container"] div[data-em-cmp="flights-booking"] div[dir="LTR"].flex.flex-wrap.w-full > .flex.flex-wrap.w-full.flex-col.justify-start > .flex.flex-wrap.w-full,
     .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"] > .flex.flex-wrap.w-full.flex-col.bg-cover > .flex.flex-wrap, 
     .FlightsBooking div[data-em-cmp="flights-booking"] div[dir="LTR"] > .flex.flex-wrap.w-full.flex-col.bg-cover > .flex.flex-wrap > .flex.flex-wrap {
         margin-top: -7px;
     }
-}
+}*/
 /*Breadcrumbs Redesign*/
 ol.breadcrumbs.block li.inline a {
     font-size: 14px;
